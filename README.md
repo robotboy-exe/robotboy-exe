@@ -7,8 +7,6 @@ Frontend developer focused on responsive, user‑friendly web experiences.
 🌱 Skills: HTML5, CSS3, JavaScript, Git, Responsive Design, REST APIs.
 
 ### 📫 Contact
-- <a href="https://linkedin.com/in/samuel-odeyovwi" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn">
-</a>
+- <a href="https://linkedin.com/in/samuel-odeyovwi" target="_blank">LinkedIn (opens new tab)</a>
 
 🚀 Check out my pinned repos below ⬇️
