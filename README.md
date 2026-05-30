@@ -8,7 +8,7 @@ Frontend developer focused on responsive, user‑friendly web experiences.
 
 ### 📫 Contact
 - <a href="https://linkedin.com/in/samuel-odeyovwi" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
 
 🚀 Check out my pinned repos below ⬇️
