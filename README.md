@@ -48,7 +48,7 @@ The site is fully responsive, accessible, and dark-mode ready, built with semant
 
 * 🖼️ **Interactive Galleries**
 
-  * Filmstrip galleries for the WordPress crypto and AI-Coached projects
+  * Filmstrip galleries for the AI-Coached, Markdown to Calendar, and WordPress crypto projects
   * Thumbnail strip plus prev/next controls
   * Keyboard navigation and an enlarged lightbox `<dialog>` with focus return
 
@@ -96,6 +96,7 @@ Planned additions and improvements:
 | Project                                  | Description                                                                                             | Tech                               |
 | ---------------------------------------- | ------------------------------------------------------------------------------------------------------- | ---------------------------------- |
 | **AI-Coached Screening Practice**        | Timed teamwork-prompt practice with Whisper + LLM Micro-Coach scoring, on a $0 Cloudflare Pages stack    | JavaScript, AI Dev, Cloudflare, Groq |
+| **Markdown to Calendar**                 | Paste markdown to fill a Google Calendar, preview first, recalculate around fixed blocks, clean up by range | Python, Flask, Google Calendar API, OAuth PKCE |
 | **Institutional Management & Learning Platform** | Role-driven web app for Admin/Student/Prospect workflows with PHP auth and admissions pipeline   | PHP, SQL, AI Dev, JavaScript       |
 | **This Portfolio**                       | The site you're looking at — my main hub for showcasing work and growth                                 | HTML, CSS, JavaScript              |
 | **SaaS Landing Page (Webflow)**          | Responsive marketing page built with Webflow                                                            | Webflow                            |

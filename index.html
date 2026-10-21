@@ -265,6 +265,50 @@
         <!-- PRJ-02 : featured gallery unit -->
         <article class="module featured rv">
           <div class="m-media">
+            <div class="filmstrip" data-gallery aria-label="Markdown to Calendar screenshots">
+              <div class="fs-viewer">
+                <img class="fs-slide on" src="images/markdown-calendar-overview.webp" alt="Markdown to Calendar demo page with the demo-mode banner, status pill, and a pasted markdown schedule" />
+                <img class="fs-slide" src="images/markdown-calendar-upload-preview.webp" alt="Upload preview showing three parsed events and the overlap-cleanup summary before applying" />
+                <img class="fs-slide" src="images/markdown-calendar-recalculate.webp" alt="Recalculate panel showing today's events and a dry-run proposal with moved and locked counts" />
+                <img class="fs-slide" src="images/markdown-calendar-cleanup.webp" alt="Cleanup panel listing app-created events eligible for deletion in today's date range" />
+                <button class="fs-main" type="button" aria-label="Open current screenshot in the enlarged viewer"></button>
+                <button class="fs-arrow fs-prev" type="button" aria-label="Previous screenshot">◀</button>
+                <button class="fs-arrow fs-next" type="button" aria-label="Next screenshot">▶</button>
+                <span class="fs-hud mono"><b class="fs-count">01 / 04</b> FRAME</span>
+              </div>
+              <div class="fs-thumbs">
+                <button class="fs-thumb on" type="button" aria-pressed="true" aria-label="Show screenshot 1: demo page overview"><img src="images/markdown-calendar-overview.webp" alt="" /><span class="n" aria-hidden="true">01</span></button>
+                <button class="fs-thumb" type="button" aria-pressed="false" aria-label="Show screenshot 2: upload preview"><img src="images/markdown-calendar-upload-preview.webp" alt="" /><span class="n" aria-hidden="true">02</span></button>
+                <button class="fs-thumb" type="button" aria-pressed="false" aria-label="Show screenshot 3: recalculate panel"><img src="images/markdown-calendar-recalculate.webp" alt="" /><span class="n" aria-hidden="true">03</span></button>
+                <button class="fs-thumb" type="button" aria-pressed="false" aria-label="Show screenshot 4: cleanup panel"><img src="images/markdown-calendar-cleanup.webp" alt="" /><span class="n" aria-hidden="true">04</span></button>
+              </div>
+            </div>
+          </div>
+          <div class="m-body">
+            <div class="m-top" style="padding:0 0 .8rem 0;border-bottom:0">
+              <span class="m-code">PRJ-02</span>
+              <span class="m-status"><span class="led" aria-hidden="true"></span>LIVE</span>
+            </div>
+            <h3>Markdown to Calendar</h3>
+            <p class="m-desc">A calendar scheduler for managing day-to-day activities and rescheduling with ease. Paste markdown to fill a schedule, preview before anything is written, let Recalculate find new times around fixed blocks, and Cleanup remove app-created events by date range. The public demo runs every feature on an in-memory fake calendar.</p>
+            <ul class="spec">
+              <li><b>ARCH</b> — Flask app with a public /demo blueprint</li>
+              <li><b>TEST</b> — 321 pytest tests at ~92% coverage; CI on Python 3.10 &amp; 3.13</li>
+              <li><b>FLOW</b> — preview-first upload, Recalculate, and Cleanup with ID-based writes</li>
+              <li><b>SAFE</b> — OAuth PKCE with state + verifier; demo never touches Google or tokens</li>
+            </ul>
+            <div class="tags">
+              <span>Python</span><span>Flask</span><span>Google Calendar API</span><span>OAuth PKCE</span><span>JavaScript</span>
+            </div>
+            <div class="m-links">
+              <a href="https://robotboy.pythonanywhere.com/demo" target="_blank" rel="noopener noreferrer">Live Demo <span class="arw" aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PRJ-03 : featured gallery unit -->
+        <article class="module featured rv">
+          <div class="m-media">
             <div class="filmstrip" data-gallery aria-label="Crypto Exchange Frontend screenshots">
               <div class="fs-viewer">
                 <img class="fs-slide on" src="images/wp-screenshot1.webp" alt="Crypto exchange WordPress landing page" />
@@ -286,7 +330,7 @@
           </div>
           <div class="m-body">
             <div class="m-top" style="padding:0 0 .8rem 0;border-bottom:0">
-              <span class="m-code">PRJ-02</span>
+              <span class="m-code">PRJ-03</span>
               <span class="m-status"><span class="led led-amb" aria-hidden="true"></span>VIDEO</span>
             </div>
             <h3>Crypto Exchange Frontend (WordPress)</h3>
@@ -306,7 +350,7 @@
           </div>
         </article>
 
-        <!-- PRJ-03 : wide unit -->
+        <!-- PRJ-04 : wide unit -->
         <article class="module featured rv">
           <div class="m-media">
             <figure style="height:100%">
@@ -315,7 +359,7 @@
           </div>
           <div class="m-body">
             <div class="m-top" style="padding:0 0 .8rem 0;border-bottom:0">
-              <span class="m-code">PRJ-03</span>
+              <span class="m-code">PRJ-04</span>
               <span class="m-status"><span class="led" aria-hidden="true"></span>LIVE</span>
             </div>
             <h3>SaaS Landing Page (Webflow)</h3>
@@ -334,10 +378,10 @@
 
         <div class="proj-grid">
 
-          <!-- PRJ-04 -->
+          <!-- PRJ-05 -->
           <article class="module rv">
             <div class="m-top">
-              <span class="m-code">PRJ-04</span>
+              <span class="m-code">PRJ-05</span>
               <span class="m-status"><span class="led led-amb" aria-hidden="true"></span>REPO</span>
             </div>
             <figure>
@@ -353,10 +397,10 @@
             </div>
           </article>
 
-          <!-- PRJ-05 -->
+          <!-- PRJ-06 -->
           <article class="module rv">
             <div class="m-top">
-              <span class="m-code">PRJ-05</span>
+              <span class="m-code">PRJ-06</span>
               <span class="m-status"><span class="led" aria-hidden="true"></span>LIVE</span>
             </div>
             <figure>
